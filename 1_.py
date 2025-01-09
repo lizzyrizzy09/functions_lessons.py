@@ -74,10 +74,10 @@
 
 
 
-def create_name(first, last):
-    first= first.capitalize()
-    last= last.capitalize()
-    return first + " " + last
+# def create_name(first, last):
+#     first= first.capitalize()
+#     last= last.capitalize()
+#     return first + " " + last
 
-full_name= create_name( "lizzy", "rizzy")
-print(full_name)
+# full_name= create_name( "lizzy", "rizzy")
+# print(full_name)
