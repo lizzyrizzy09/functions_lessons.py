@@ -99,9 +99,9 @@ def positive_numbers(all_positives): #this is defining our function
         else: #if a number in the list is less than 0, it would return False as all Nnumbers in the list have to be positive
              return False
         
-result=positive_numbers([1,-6,9,11,-4])
- #if thee function was called, it list of numbers would be added in position of the all_positives parameter
-print(result)
+# result=positive_numbers([1,-6,9,11,-4])
+#  #if thee function was called, it list of numbers would be added in position of the all_positives parameter
+# print(result)
 #would print True or False based on the values stored in a list 
 
 # Dynamic Functions Practice #2-------------------------------------------------------------------------------------------------------
@@ -115,7 +115,10 @@ def sum_less(num_list):    #This is defining the function
         if n in range (0,1000): #If it's within the range of 0-1000...
             total += n          #You add it to the total
         else:                   #And if the number isn't in the range...
-            pass                #You pass it on moving to the next number
+            pass
+        
+        
+    return total                #You pass it on moving to the next number
         
     #This loop repeats itself until there are no more numbers in the list
         
@@ -126,7 +129,7 @@ print(result2) #This prints out the result
 #I'm assuming this is because somehow the numbers don't get added up
 #But since they match the range that's why it displays that
 #But it's almost time for us to go so we couldn't figure out the problem.
-#Please help
+#Please help, thank you.
         
 # Dynamic Functions Practice #3--------------------------------------------------------------------------------------------------------
 # Create a function (count_even) that counts the number of even numbers that exist in a list (numbers),

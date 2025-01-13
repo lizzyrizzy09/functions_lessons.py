@@ -1,3 +1,34 @@
+# srgs = allows you to pass multiple non-key arguments
+# kwargs = allows you to pass multiple keyword-argumets
+    # unpacking operator
+    # 1. positional, 2. default, 3, keyword, 4. ARBITARY
+
+
+
+# def add(*args):
+#     total=0
+#     for arg in args:
+#         total+=args
+#     return total
+
+# print(add(1,2,3,4,5))
+
+# def display_name(*args):
+#     for every arg in args:
+#         print(arg, end="")
+    
+# display_name("lizzy", "rizzy", "fizzy")
+
+def print_address(**kwargs):
+    for key, value in kwargs.items():
+         print(f"{key}: {value}")
+
+print_address(street="143 skz street",
+                city="chicago",
+                 state="IL",
+                 zip="60645")
+
+
 # Indefinite Arguments (*args) Practice #1
 # Create a function called sum_squares that takes any number of numeric arguments, and returns the sum of their values squared.
 
